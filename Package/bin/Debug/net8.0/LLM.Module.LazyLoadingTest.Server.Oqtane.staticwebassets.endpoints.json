@@ -1,0 +1,252 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "Modules/LLM.Module.LazyLoadingTest/Module.css",
+      "AssetFile": "Modules/LLM.Module.LazyLoadingTest/Module.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ZLdJKAA9+JqIES2oHPbmWIsK8BnDDL9H+k+PSXH9yY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 09:52:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9ZLdJKAA9+JqIES2oHPbmWIsK8BnDDL9H+k+PSXH9yY="
+        }
+      ]
+    },
+    {
+      "Route": "Modules/LLM.Module.LazyLoadingTest/Module.dc7w7nogg4.js",
+      "AssetFile": "Modules/LLM.Module.LazyLoadingTest/Module.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LZDMd2LkzhNUZglBFzf+B+PJCpX1MOKVy73NdXJK3Y8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Nov 2024 06:42:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dc7w7nogg4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LZDMd2LkzhNUZglBFzf+B+PJCpX1MOKVy73NdXJK3Y8="
+        },
+        {
+          "Name": "label",
+          "Value": "Modules/LLM.Module.LazyLoadingTest/Module.js"
+        }
+      ]
+    },
+    {
+      "Route": "Modules/LLM.Module.LazyLoadingTest/Module.dmxz27g5eg.css",
+      "AssetFile": "Modules/LLM.Module.LazyLoadingTest/Module.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "201"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ZLdJKAA9+JqIES2oHPbmWIsK8BnDDL9H+k+PSXH9yY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 09:52:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dmxz27g5eg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9ZLdJKAA9+JqIES2oHPbmWIsK8BnDDL9H+k+PSXH9yY="
+        },
+        {
+          "Name": "label",
+          "Value": "Modules/LLM.Module.LazyLoadingTest/Module.css"
+        }
+      ]
+    },
+    {
+      "Route": "Modules/LLM.Module.LazyLoadingTest/Module.js",
+      "AssetFile": "Modules/LLM.Module.LazyLoadingTest/Module.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LZDMd2LkzhNUZglBFzf+B+PJCpX1MOKVy73NdXJK3Y8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Nov 2024 06:42:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LZDMd2LkzhNUZglBFzf+B+PJCpX1MOKVy73NdXJK3Y8="
+        }
+      ]
+    },
+    {
+      "Route": "Modules/LLM.Module.LazyLoadingTest/scrollListener.js",
+      "AssetFile": "Modules/LLM.Module.LazyLoadingTest/scrollListener.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "329"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UpZJY0qfWUxsaOzUbgALn/oi1APAx4gVtywQhun8U70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 09:52:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UpZJY0qfWUxsaOzUbgALn/oi1APAx4gVtywQhun8U70="
+        }
+      ]
+    },
+    {
+      "Route": "Modules/LLM.Module.LazyLoadingTest/scrollListener.yccfufnv2u.js",
+      "AssetFile": "Modules/LLM.Module.LazyLoadingTest/scrollListener.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "329"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UpZJY0qfWUxsaOzUbgALn/oi1APAx4gVtywQhun8U70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 09:52:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yccfufnv2u"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UpZJY0qfWUxsaOzUbgALn/oi1APAx4gVtywQhun8U70="
+        },
+        {
+          "Name": "label",
+          "Value": "Modules/LLM.Module.LazyLoadingTest/scrollListener.js"
+        }
+      ]
+    }
+  ]
+}

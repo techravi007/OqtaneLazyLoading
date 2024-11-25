@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>    
+    <Version>1.0.0</Version>
+    <Product>LLM.Module.LazyLoadingTest</Product>
+    <Authors>LLM</Authors>
+    <Company>LLM</Company>
+    <Description>LazyLoadingTest</Description>
+    <Copyright>LLM</Copyright>
+    <AssemblyName>LLM.Module.LazyLoadingTest.Shared.Oqtane</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Oqtane.Shared"><HintPath>..\..\oqtane520\Oqtane.Server\bin\Debug\net8.0\Oqtane.Shared.dll</HintPath></Reference>
+  </ItemGroup>
+
+</Project>

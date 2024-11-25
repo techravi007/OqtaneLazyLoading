@@ -1,0 +1,11 @@
+/* Module Custom Styles */
+
+    .item-list {
+        height: 400px;
+        overflow-y: auto;
+    }
+    .item {
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        padding: 10px;
+    }

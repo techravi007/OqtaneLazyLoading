@@ -1,0 +1,16 @@
+/Users/Ravindra/Projects/web/LLM.Module.LazyLoadingTest/Shared/bin/Debug/net8.0/LLM.Module.LazyLoadingTest.Shared.Oqtane.deps.json
+/Users/Ravindra/Projects/web/LLM.Module.LazyLoadingTest/Shared/bin/Debug/net8.0/LLM.Module.LazyLoadingTest.Shared.Oqtane.dll
+/Users/Ravindra/Projects/web/LLM.Module.LazyLoadingTest/Shared/bin/Debug/net8.0/LLM.Module.LazyLoadingTest.Shared.Oqtane.pdb
+/Users/Ravindra/Projects/web/LLM.Module.LazyLoadingTest/Shared/bin/Debug/net8.0/Oqtane.Shared.dll
+/Users/Ravindra/Projects/web/LLM.Module.LazyLoadingTest/Shared/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/Ravindra/Projects/web/LLM.Module.LazyLoadingTest/Shared/bin/Debug/net8.0/Oqtane.Shared.pdb
+/Users/Ravindra/Projects/web/LLM.Module.LazyLoadingTest/Shared/obj/Debug/net8.0/LLM.Module.LazyLoadingTest.Shared.csproj.AssemblyReference.cache
+/Users/Ravindra/Projects/web/LLM.Module.LazyLoadingTest/Shared/obj/Debug/net8.0/LLM.Module.LazyLoadingTest.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ravindra/Projects/web/LLM.Module.LazyLoadingTest/Shared/obj/Debug/net8.0/LLM.Module.LazyLoadingTest.Shared.AssemblyInfoInputs.cache
+/Users/Ravindra/Projects/web/LLM.Module.LazyLoadingTest/Shared/obj/Debug/net8.0/LLM.Module.LazyLoadingTest.Shared.AssemblyInfo.cs
+/Users/Ravindra/Projects/web/LLM.Module.LazyLoadingTest/Shared/obj/Debug/net8.0/LLM.Module.LazyLoadingTest.Shared.csproj.CoreCompileInputs.cache
+/Users/Ravindra/Projects/web/LLM.Module.LazyLoadingTest/Shared/obj/Debug/net8.0/LLM.Modu.9F0BA6B0.Up2Date
+/Users/Ravindra/Projects/web/LLM.Module.LazyLoadingTest/Shared/obj/Debug/net8.0/LLM.Module.LazyLoadingTest.Shared.Oqtane.dll
+/Users/Ravindra/Projects/web/LLM.Module.LazyLoadingTest/Shared/obj/Debug/net8.0/refint/LLM.Module.LazyLoadingTest.Shared.Oqtane.dll
+/Users/Ravindra/Projects/web/LLM.Module.LazyLoadingTest/Shared/obj/Debug/net8.0/LLM.Module.LazyLoadingTest.Shared.Oqtane.pdb
+/Users/Ravindra/Projects/web/LLM.Module.LazyLoadingTest/Shared/obj/Debug/net8.0/ref/LLM.Module.LazyLoadingTest.Shared.Oqtane.dll

@@ -1,0 +1,90 @@
+@using LLM.Module.LazyLoadingTest.Services
+@using LLM.Module.LazyLoadingTest.Models
+
+@namespace LLM.Module.LazyLoadingTest
+@inherits ModuleBase
+@inject ILazyLoadingTestService LazyLoadingTestService
+@inject NavigationManager NavigationManager
+@inject IStringLocalizer<Index> Localizer
+@inject IJSRuntime JSRuntime
+
+
+<div class="item-list">
+    @foreach (var item in items)
+    {
+        <div class="item">
+            <h3>@item.Name</h3>
+            <p>ID: @item.LazyLoadingTestId</p>
+        </div>
+    }
+</div>
+
+@code {
+
+    private List<LazyLoadingTest> items = new List<LazyLoadingTest>();
+    private int currentPage = 1;
+    private const int itemsPerPage = 20;
+    public override string RenderMode => RenderModes.Interactive;
+
+    public override List<Resource> Resources => new List<Resource>()
+    {
+        new Resource { ResourceType = ResourceType.Stylesheet, Url = ModulePath() + "Module.css" },
+        new Resource { ResourceType = ResourceType.Script, Url = ModulePath() + "Module.js" },
+        new Resource { ResourceType = ResourceType.Script, Url = ModulePath() + "scrollListener.js" }
+    };
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("scrollListener.addScrollListener", DotNetObjectReference.Create(this));
+            await LoadMoreItems();
+        }
+    }
+
+    [JSInvokable]
+    public async Task LoadMoreItems()
+    {
+        // Simulate loading items from an API
+        var newItems = await FetchItemsFromApi(currentPage, itemsPerPage);
+        items.AddRange(newItems);
+        currentPage++;
+        StateHasChanged();
+    }
+
+    private async Task<List<LazyLoadingTest>> FetchItemsFromApi(int page, int pageSize)
+    {
+        // Implement your API call here
+        await Task.Delay(100); // Simulating API delay
+        return Enumerable.Range((page - 1) * pageSize + 1, pageSize)
+            .Select(i => new LazyLoadingTest { LazyLoadingTestId = i, Name = $"Item {i}" })
+            .ToList();
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        @* try
+        {
+            _LazyLoadingTests = await LazyLoadingTestService.GetLazyLoadingTestsAsync(ModuleState.ModuleId);
+        }
+        catch (Exception ex)
+        {
+            await logger.LogError(ex, "Error Loading LazyLoadingTest {Error}", ex.Message);
+            AddModuleMessage(Localizer["Message.LoadError"], MessageType.Error);
+        } *@
+    }
+
+    private async Task Delete(LazyLoadingTest LazyLoadingTest)
+    {
+        try
+        {
+            await LazyLoadingTestService.DeleteLazyLoadingTestAsync(LazyLoadingTest.LazyLoadingTestId, ModuleState.ModuleId);
+            await logger.LogInformation("LazyLoadingTest Deleted {LazyLoadingTest}", LazyLoadingTest);
+            //_LazyLoadingTests = await LazyLoadingTestService.GetLazyLoadingTestsAsync(ModuleState.ModuleId);
+            StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            await logger.LogError(ex, "Error Deleting LazyLoadingTest {LazyLoadingTest} {Error}", LazyLoadingTest, ex.Message);
+            AddModuleMessage(Localizer["Message.DeleteError"], MessageType.Error);
+        }
+    }
+}

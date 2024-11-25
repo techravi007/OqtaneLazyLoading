@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nEk/7isIsYI=",
+  "success": true,
+  "projectFilePath": "/Users/Ravindra/Projects/web/LLM.Module.LazyLoadingTest/Shared/LLM.Module.LazyLoadingTest.Shared.csproj",
+  "expectedPackageFiles": [
+    "/Users/Ravindra/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "/Users/Ravindra/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/Ravindra/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

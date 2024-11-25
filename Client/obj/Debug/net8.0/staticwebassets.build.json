@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "Hash": "S8O8Kr3bLZGDwIEwLFed9d8s7T/hLx5YtwPkhVqgvM0=",
+  "Source": "LLM.Module.LazyLoadingTest.Client.Oqtane",
+  "BasePath": "_content/LLM.Module.LazyLoadingTest.Client.Oqtane",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [
+    {
+      "Identity": "/Users/Ravindra/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/8.0.7/staticwebassets/AuthenticationService.js",
+      "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/Ravindra/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/8.0.7/staticwebassets/",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "RelativePath": "AuthenticationService.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "epbw58hwuq",
+      "Integrity": "Qlj6NGS978hjVyrYLtW5G6trKGerdW4Fwgvr2eUo/lU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/Ravindra/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/8.0.7/staticwebassets/AuthenticationService.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication/AuthenticationService.js",
+      "AssetFile": "/Users/Ravindra/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/8.0.7/staticwebassets/AuthenticationService.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "291499"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qlj6NGS978hjVyrYLtW5G6trKGerdW4Fwgvr2eUo/lU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Jun 2024 17:30:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qlj6NGS978hjVyrYLtW5G6trKGerdW4Fwgvr2eUo/lU="
+        }
+      ]
+    }
+  ]
+}
