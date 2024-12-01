@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/LLM.Module.LazyLoadingTest.Client.Oqtane.props" />
-</Project>
